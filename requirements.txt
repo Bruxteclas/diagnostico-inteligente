@@ -1,5 +1,5 @@
 streamlit==1.39.0
-autogluon==1.1.1
+autogluon.tabular[all]==1.1.1
 scikit-learn==1.4.0
 pandas==2.2.2
 pillow==10.4.0
