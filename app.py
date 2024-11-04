@@ -25,7 +25,7 @@ def add_bg_from_local(image_file):
     )
 
 # Adicionando imagem de fundo
-add_bg_from_local('/content/cena-de-saude-2_173691-553.avif')  # Certifique-se de ter essa imagem na pasta do projeto
+add_bg_from_local('cena-de-saude-2_173691-553.avif')
 
 # Carregando o modelo e o LabelEncoder
 predictor = joblib.load('predictor.pkl')
