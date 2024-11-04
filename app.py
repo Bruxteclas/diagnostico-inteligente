@@ -28,7 +28,7 @@ def add_bg_from_local(image_file):
 add_bg_from_local('cena-de-saude-2_173691-553.avif')
 
 # Carregando o modelo e o LabelEncoder
-predictor = joblib.load('predictor_independente.pkl')
+predictor = joblib.load('model_independente.pkl')
 label_encoder = joblib.load('label_encoder.joblib') 
 
 # Cabeçalho do aplicativo com título e subtítulo
