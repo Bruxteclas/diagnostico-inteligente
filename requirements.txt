@@ -7,4 +7,5 @@ joblib==1.4.2
 streamlit==1.39.0
 Pillow==10.4.0
 pyngrok==7.2.0
+autogluon==1.1.1
 
