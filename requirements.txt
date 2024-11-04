@@ -2,7 +2,6 @@ kagglehub==0.3.3
 pandas==2.2.2
 matplotlib==3.8.0
 scikit-learn==1.4.0
-autogluon==1.1.1
 seaborn==0.13.2
 joblib==1.4.2
 streamlit==1.39.0
