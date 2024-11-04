@@ -4,7 +4,6 @@ import streamlit as st
 st.set_page_config(page_title="Previsão de Doenças com AutoGluon", page_icon="🩺", layout="wide")
 
 import pandas as pd
-from autogluon.tabular import TabularPredictor
 import joblib
 from PIL import Image
 import base64
@@ -28,12 +27,9 @@ def add_bg_from_local(image_file):
 # Adicionando imagem de fundo
 add_bg_from_local('/content/cena-de-saude-2_173691-553.avif')  # Certifique-se de ter essa imagem na pasta do projeto
 
-# Carregando o modelo
-model_path = 'AutogluonModels/ag-20241102_150955'
-predictor = TabularPredictor.load(model_path)
-
-# Carregar o LabelEncoder
-label_encoder = joblib.load('label_encoder.joblib')
+# Carregando o modelo e o LabelEncoder
+predictor = joblib.load('predictor.pkl')
+label_encoder = joblib.load('label_encoder.joblib') 
 
 # Cabeçalho do aplicativo com título e subtítulo
 st.title("🩺 Previsão de Doenças com AutoGluon")
