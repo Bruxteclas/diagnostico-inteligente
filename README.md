@@ -4,7 +4,10 @@
 
 Este projeto utiliza inteligência artificial para auxiliar na previsão de diagnósticos médicos com base em sintomas informados pelo usuário. Desenvolvido com o poder do **AutoGluon** e uma interface interativa com **Streamlit**, o Diagnóstico Inteligente oferece uma solução acessível para ajudar na triagem de sintomas, fornecendo diagnósticos preliminares em tempo real.
 
-## 🔍 Visão Geral
+![Captura de tela 2024-11-04 221727](https://github.com/user-attachments/assets/68a6e468-6996-4c2e-a782-dace61a72868)
+
+# 🔍 Visão Geral
+
 
 O Diagnóstico Inteligente é uma aplicação de aprendizado de máquina que, a partir dos sintomas selecionados, sugere diagnósticos prováveis. Essa ferramenta foi treinada usando o **AutoGluon** com dados disponíveis no Kaggle para prever uma variedade de doenças comuns.
 
