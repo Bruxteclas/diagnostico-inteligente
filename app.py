@@ -37,7 +37,21 @@ label_encoder = joblib.load('label_encoder.joblib')
 
 # Cabeçalho do aplicativo com título e subtítulo
 st.title("🩺 Previsão de Doenças com AutoGluon")
-st.markdown("**Descubra possíveis diagnósticos com base nos sintomas apresentados de forma rápida e precisa.**")
+st.markdown("**Descubra possíveis diagnósticos com base nos sintomas apresentados.**")
+st.markdown("---")
+
+# Adicionando o objetivo e direcionamento ao README
+st.markdown(
+    """
+    ### Objetivo do Projeto
+    Este projeto tem como objetivo demonstrar como um modelo de aprendizado de máquina pode ser implementado em um sistema web interativo na área da saúde.
+    A ferramenta foi desenvolvida para fins de **demonstração**, ilustrando o potencial do uso de IA para identificar possíveis condições médicas com base nos sintomas fornecidos pelo usuário.  
+    **🚨 Importante**: esta ferramenta não se destina a fornecer diagnósticos médicos nem a ser utilizada por profissionais de saúde, servindo apenas como um exemplo de aplicação da inteligência artificial na área médica.
+
+    ### Como Testar
+    Consulte o README no GitHub para ver a lista completa de doenças e sintomas disponíveis para teste. Selecione os sintomas da lista abaixo e clique em **Prever** para ver os resultados.
+    """
+)
 st.markdown("---")
 
 # Seção de instruções 
